@@ -1,5 +1,5 @@
-🛡️ Project Maester: AI-Driven Emergency Response System
-Project Maester is an end-to-end medical response pipeline designed to eliminate data bottlenecks in emergency medicine. It integrates Computer Vision, High-Velocity Data Streaming, and Deep Learning to bridge the gap between an unidentified casualty and a stabilized patient.
+🛡️ Project Maestor: AI-Driven Emergency Response System
+Project Maestor is an end-to-end medical response pipeline designed to eliminate data bottlenecks in emergency medicine. It integrates Computer Vision, High-Velocity Data Streaming, and Deep Learning to bridge the gap between an unidentified casualty and a stabilized patient.
 
 🚀 Key Features
 Biometric Identification: Utilizes PyTorch and OpenCV to instantly identify patients via facial recognition and retrieve their encrypted medical histories (Allergies, Blood Group, etc.).
@@ -23,7 +23,7 @@ Database: SQLite3.
 
 📂 Project Structure
 Bash
-Project_Maester/
+Project_Maestor/
 ├── data/               # Persistent SQLite storage
 ├── modules/            # Backend logic modules
 │   ├── biometrics.py   # Facial recognition logic
