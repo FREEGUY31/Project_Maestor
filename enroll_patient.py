@@ -18,14 +18,14 @@ def enroll():
         cv2.imshow("Enrollment - Press 's' to save", frame)
         
         if cv2.waitKey(1) & 0xFF == ord('s'):
-            # Convert the image from BGR (OpenCV) to RGB (face_recognition)
+            
             rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             
-            # Extract face encodings
+            
             encodings = face_recognition.face_encodings(rgb_frame)
             
             if len(encodings) > 0:
-                # Save the first face found to the database
+                
                 save_patient(name, history, encodings[0])
                 print(f"Success: {name} has been enrolled in Project Maester.")
                 break
